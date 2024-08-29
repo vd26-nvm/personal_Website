@@ -5,39 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <nav>
+    <nav id="nav">
         <div>
             <a href="#allIntro"><div>Vidhan Desai</div></a>
             <a href="#courses"><div>My Courses</div></a>
             <a href="#activities"><div>Activities</div></a>
-
+            </a>
         </div>
-
-
+        <div class="progress-bar"></div>
     </nav>
     <div class="slider-container">
         <div class="slider"></div>
     </div>
     <main>
-        <div id="allIntro">
-            <div class="topSend">Vidhan Desai</div>
-            <h1 class="intro">
-            <div class="content">
-                <p class="subContent">I love nature photography</p>
-                <div class="crop">
-                    <img src="images\IMG_7833.jpg" class="intro_img">    
-                </div>    
+        <div id="allIntro" class="intro-container">
+            <div class="intro">
+                <div class="topSend"></div>
+                <h1 class="intro">
+                <div class="content">
+                    <p class="subContent">I love nature photography</p>
+                    <div class="crop">
+                        <img src="images\IMG_7833.jpg" class="intro_img">    
+                    </div>    
+                </div>
             </div>
-           
 
-            </h1>
-            <div class="info">
-                <p>A liitle more about me: I am very passionate about biology and am building up and interest in coding, I have some prior experience in python but I want to learn more about javascript and Web Development</p>
+            <div class="more-info">
+                <div class="info">
+                    <p>A liitle more about me: I am very passionate about biology and am building up and interest in coding, I have some prior experience in python but I want to learn more about javascript and Web Development</p>
+                </div>
             </div>
         </div>
-        
+
         <section id="courses">
             <p class="topSend">My Courses</p>
             <div class="boxes">
@@ -110,5 +112,8 @@
         <br><br><br><br>
         <a href="https://www.linkedin.com/in/vidhan-desai-920a56321/" target="_blank"><div class="linkedIn">LinkedIn Profile</div></a>
     </main>
+    <script src="script.js"></script>
+
+
 </body>
 </html>
